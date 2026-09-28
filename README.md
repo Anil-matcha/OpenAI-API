@@ -20,7 +20,7 @@ The live MuAPI OpenAI catalog includes these distinct workflows:
 | Sora | `openai-sora-2-text-to-video`, `openai-sora-2-image-to-video`, plus Pro routes | Text-to-video and image-to-video; Pro includes up to 1080p according to the MuAPI model catalog. |
 | GPT reasoning | `gpt-6-astra` and other GPT reasoning endpoints | Text reasoning with configurable `reasoning_effort`; Astra accepts text and image input according to its catalog entry. |
 
-This repository covers MuAPI's listed endpoints, not every OpenAI product or every parameter supported by OpenAI's own APIs. Check the live [OpenAI API page](https://muapi.ai/openai-api) and model playground pages for current availability and accepted fields.
+This repository covers MuAPI's listed endpoints, not every OpenAI product or every parameter supported by OpenAI's own APIs. Use the landing page linked above and the model playground pages for current availability and accepted fields.
 
 ## Choosing an endpoint
 
@@ -34,7 +34,7 @@ Compare endpoints against your workload rather than model names alone:
 
 ## Quick start
 
-Create a MuAPI key at [muapi.ai/access-keys](https://muapi.ai/access-keys), then set it in your shell:
+Create a MuAPI key using the access-key link above, then set it in your shell:
 
 ```bash
 export MUAPI_API_KEY="your_api_key"
@@ -82,9 +82,6 @@ The examples use the fields shown in MuAPI's OpenAI landing page snippets. For i
 
 ## Links
 
-- [OpenAI API models and examples](https://muapi.ai/openai-api)
-- [API reference](https://muapi.ai/docs/api-reference)
 - [Playground: GPT Image](https://muapi.ai/playground/gpt-image-2-text-to-image)
 - [Playground: Sora 2 Pro](https://muapi.ai/playground/openai-sora-2-pro-text-to-video)
 - [Playground: GPT 6 Astra](https://muapi.ai/playground/gpt-6-astra)
-- [Create or manage API keys](https://muapi.ai/access-keys)
